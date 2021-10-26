@@ -19,7 +19,7 @@ Invalid Topcoder Handle
     Input Text      //input[@id='1-lastName']   ${Last_Name}
     Input Text      //input[@id='1-email']      ${Email_Address}
     Input Text      //input[@placeholder='Create a Username / Handle']  ${New_Handle}
-    Input Text      //input[@placeholder='Create a Password']   ${Password}
+    Input Password      //input[@placeholder='Create a Password']   ${Password}
     Double Click Element   //input[@id='1-country']
     Click Element   ${Checkbox_XPath}
     Checkbox Should Be Selected     ${Checkbox_XPath}

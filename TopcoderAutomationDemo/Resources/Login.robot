@@ -12,6 +12,6 @@ Invalid Username or Password
     Wait Until Page Contains    Topcoder Login
     Location Should Contain      ${Login_URL}
     Input Text      //input[@placeholder='Username / Handle']   ${TC_Handle}
-    Input Text      //input[@placeholder='Password']    ${Password}
+    Input Password    //input[@placeholder='Password']    ${Password}
     Click Element   //button[@name='submit']
     Page Should Contain     Wrong username or password
